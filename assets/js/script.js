@@ -1,3 +1,4 @@
+var currentQuestionIndex = 0
 var startButton = document.getElementById('start-btn')
 var questionContainerEl = document.getElementById ('question-container')
 var questionEl = document.getElementById('question')
@@ -11,8 +12,17 @@ function startGame() {
 }
 
 function nextQuestion(question) {
-    //questionEl.textContent= question
+    var currentQuestion = questions [currentQuestionIndex];
+    var title = document.getElementById('question')
+    title.textContent= currentQuestion.question
+
+    answerButtonsEl.innerHTML= "";
+    currentQuestion.answers.forEach(function(choice, i) {
+        var choiceNode = document.createElement("btn")
+        choiceNode.setAttribute("btn", )
+    }
 }
+ 
 
 function selectAnswer(){
 

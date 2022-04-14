@@ -14,62 +14,53 @@ body{
     background-color: blueviolet;
 }
 
-body.correct {
-    color: green;
 }
+header {
+    margin: 10px;
+    padding: 16px;
+    text-decoration-color: black;
+    background-color: pink;
+    
+    
 
-body.wrong {
-    color: red;
 }
-
-.container {
-    width: 800px;
-    max-width: 85%;
-    background-color: azure;
-    border-radius: 5px;
-    padding: 12px;
-    box-shadow: 0 0 10px 3px;
+.high-scores{
+    float: left;
 }
-
-.btn-grid {
-    display: grid;
-    margin:  20px 0;
-    padding: 10px;
+.time{
+    float: right;
 }
-
-.btn {
-    background-color:rgb(88, 88, 88);
-    border: 1px solid;
-    border-radius: 3px;
-    padding: 5px 10px;
-    color: white;
-    outline: none;
+h1{
+    height: 100px;
+    text-align: center;
+    
 }
-
-.btn:hover {
-    border-color: blueviolet;
-    opacity: 50%;
+.intro{
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding:16px;
 }
+.question{
+    display: block;
+    padding:16px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
 
-.btn.correct {
-    color: green;
 }
-
-.btn.wrong {
-    color: red;
-}
-
-.start-btn, .next-btn {
-    font-weight: bold;
-    padding: 10px 20px;
-}
-
-.controls {
+button{
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    flex-wrap: wrap;
 
-.hide {
-    display: none;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    padding: 16px;
+    
+   
+}
+.btn{
+    align-content: center;
 }
